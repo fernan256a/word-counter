@@ -10,7 +10,7 @@ const App = () => {
   const [baconData, generateBacon] = useGenerateBacon();
 
   return (
-    <Container>
+    <Container className="pt-2">
       <Header/>
       <Summary words={baconData.data.words} chars={baconData.data.chars}/>
       <Graph top3={baconData.data.top3}/>

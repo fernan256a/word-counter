@@ -2,6 +2,12 @@
     max-width: 50px;
 }
 
+@media screen and (max-width: 576px) {
+    .w-sm-100 {
+        width: 100%;
+    }
+}
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
